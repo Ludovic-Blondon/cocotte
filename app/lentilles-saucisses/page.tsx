@@ -5,7 +5,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lentilles aux saucisses - Cuisson lente en cocotte Staub",
+  title: "Lentilles saucisses",
   description:
     "Recette de lentilles aux saucisses cuites lentement en cocotte Staub. Les lentilles absorbent progressivement les saveurs fumées tout en restant fondantes.",
 };

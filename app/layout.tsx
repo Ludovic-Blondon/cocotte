@@ -24,10 +24,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Portfolio",
-    template: `%s - Portfolio`,
+    default: "Cocotte",
+    template: `%s - Cocotte`,
   },
-  description: "Portfolio de Ludovic Blondon",
+  description: "Recettes de cuisson lente en cocotte Staub",
 };
 
 export default function RootLayout({

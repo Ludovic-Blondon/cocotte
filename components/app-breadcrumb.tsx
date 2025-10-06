@@ -1,6 +1,6 @@
 "use client";
 
-import { navigation } from "@/config/navigation";
+import { navigations } from "@/config/navigation";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -18,9 +18,9 @@ export function AppBreadcrumb() {
 
   const navigationMap = useMemo(() => {
     const map = new Map<string, string>();
-    [...navigation.navCocotte.items].forEach((item) =>
-      map.set(item.href, item.label)
-    );
+    navigations.flatMap((nav) => nav.items).forEach((item) => {
+      map.set(item.href, item.label);
+    });
     return map;
   }, []);
 

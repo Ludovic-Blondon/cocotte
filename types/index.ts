@@ -1,4 +1,13 @@
 export type NavigationConfig = {
+  key: string;
+  type: "group";
   label: string;
-  items: { label: string; href: string }[];
+  items: NavigationItem[];
+};
+
+export type NavigationItem = {
+  key: string;
+  type: "page";
+  label: string;
+  href: string;
 };
