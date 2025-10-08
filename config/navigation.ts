@@ -14,4 +14,23 @@ export const navigations: NavigationConfig[] = [
       },
     ],
   },
+  {
+    key: "four",
+    type: "group",
+    label: "Four",
+    items: [
+      {
+        key: "lasagnes-bolognaise",
+        type: "page",
+        label: "Lasagnes bolognaise",
+        href: "/lasagnes-bolognaise",
+      },
+      {
+        key: "lasagnes-au-thon",
+        type: "page",
+        label: "Lasagnes au thon",
+        href: "/lasagnes-au-thon",
+      },
+    ],
+  },
 ];
