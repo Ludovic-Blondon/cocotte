@@ -12,6 +12,12 @@ export const navigations: NavigationConfig[] = [
         label: "Lentilles saucisses",
         href: "/lentilles-saucisses",
       },
+      {
+        key: "paupiettes",
+        type: "page",
+        label: "Paupiettes",
+        href: "/paupiettes",
+      },
     ],
   },
   {
